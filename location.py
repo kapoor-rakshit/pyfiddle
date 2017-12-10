@@ -2,6 +2,8 @@
 # Geodesics on the sphere are circles on the sphere whose centers coincide with the center of the sphere,called great circles.
 # distance measured along the surface of the sphere (as opposed to a straight line through the sphere's interior).
 
+#Requirements ---  pip install geopy
+
 from geopy.geocoders import Nominatim
 from geopy.distance import vincenty
 from geopy.distance import great_circle
