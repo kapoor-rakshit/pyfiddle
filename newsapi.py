@@ -11,7 +11,7 @@ try:
 		'to=2017-11-30'
 		'language=en'
 		'sortBy=popularity'
-		'&apiKey=7a1c197d3f3a4deeb3c3c9907b4a90f6')  
+		'&apiKey=--------------your apiKey------------------')  
 	response = requests.get(url)
 	response = response.json()
 
@@ -29,7 +29,7 @@ try:
 	url = ('https://newsapi.org/v2/'
 		'top-headlines?'                                                              #top headlines             
 		'sources=new-scientist,the-times-of-india'                        #multiple sources comma separated                    
-		'&apiKey=7a1c197d3f3a4deeb3c3c9907b4a90f6')
+		'&apiKey=--------------your apiKey---------------------')
 	response = requests.get(url)
 	response = response.json()
 
