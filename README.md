@@ -26,4 +26,6 @@ Handle recyclebin the py way using winshell.
 Get world time.
 <li>CSV</li>
 working with CSV files in python.
+<li>IP</li>
+Details of an IP or hostname address using <a href="http://freegeoip.net/">freegeoip API</a>.
 </ul>
