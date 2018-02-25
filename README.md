@@ -28,4 +28,6 @@ Get world time.
 working with CSV files in python.
 <li>IP</li>
 Details of an IP or hostname address using <a href="http://freegeoip.net/">freegeoip API</a>.
+<li>SQLite</li>
+sqlite3 db module from within python.
 </ul>
