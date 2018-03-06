@@ -30,4 +30,8 @@ working with CSV files in python.
 Details of an IP or hostname address using <a href="http://freegeoip.net/">freegeoip API</a>.
 <li>SQLite</li>
 sqlite3 db module from within python.
+<li>Wikipedia</li>
+python client library for Wikipedia.
+<li>WolframAlpha</li>
+python client library for <a href="http://www.wolframalpha.com/">wolframalpha engine</a>
 </ul>
