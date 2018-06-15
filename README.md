@@ -34,4 +34,8 @@ sqlite3 db module from within python.
 python client library for Wikipedia.
 <li>WolframAlpha</li>
 python client library for <a href="http://www.wolframalpha.com/">wolframalpha engine</a>
+<li>Grammar</li>
+grammar check using <a href="https://textgears.com/">TextGears API</a>
+<li>Thesaurus</li>
+a <a href="http://thesaurus.altervista.org/service">web service</a> providing search capability for synonyms in different languages.
 </ul>
