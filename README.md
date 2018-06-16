@@ -38,4 +38,8 @@ python client library for <a href="http://www.wolframalpha.com/">wolframalpha en
 grammar check using <a href="https://textgears.com/">TextGears API</a>
 <li>Thesaurus</li>
 a <a href="http://thesaurus.altervista.org/service">web service</a> providing search capability for synonyms in different languages.
+<li>Earthquake</li>
+monitoring earthquakes around the planet using data from <a href="https://earthquake.usgs.gov/" target="_blank">USGS site</a>
+<li>terminalText</li>
+<a href="https://pypi.org/project/colorama/">colorama</a> for producing colored terminal text.
 </ul>
