@@ -42,4 +42,8 @@ a <a href="http://thesaurus.altervista.org/service">web service</a> providing se
 monitoring earthquakes around the planet using data from <a href="https://earthquake.usgs.gov/" target="_blank">USGS site</a>
 <li>terminalText</li>
 <a href="https://pypi.org/project/colorama/">colorama</a> for producing colored terminal text.
+<li>Pokémon</li>
+uses <a href="https://pokeapi.co/" target="_blank">pokéapi</a> and returns pokémon info.
+<li>Currency</li>
+get information about the currency exchange rates using data from <a href="https://www.xe.com/" target="_blank">XE site</a>
 </ul>
