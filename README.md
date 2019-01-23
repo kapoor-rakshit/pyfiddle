@@ -46,4 +46,8 @@ monitoring earthquakes around the planet using data from <a href="https://earthq
 uses <a href="https://pokeapi.co/" target="_blank">pokéapi</a> and returns pokémon info.
 <li>Currency</li>
 get information about the currency exchange rates using data from <a href="https://www.xe.com/" target="_blank">XE site</a>
+<li>Time in Words</li>
+py script to convert time to words
+<li>Number in Hindi Words</li>
+py script to convert number to hindi words
 </ul>
