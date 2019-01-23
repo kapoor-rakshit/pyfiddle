@@ -24,27 +24,29 @@ while i<l and ord(a[i])==48:
 	a[i] = ''
 	i+=1
 
-a = "".join(a)
-l = len(a)
+a = "".join(a)                     # Before decimal
+b = ""                             # After decimal
 
+if a.find('.') != -1:
+	a,b = a.split('.')
+
+l = len(a)
+                                   # Process before decimal
 if l>=1 and l<=2:
-	ans = zero_to_99[int(a)]
-	print(ans)
-elif l == 0:
-	ans = "number empty"
-	print(ans)
-else:
+	ans = zero_to_99[int(a)] + " "
+
+elif l>=3:
 	x = 0
 	while l-x > 3:
-		if l%2==0 and x==0:
+		if l%2==0 and x==0:      # pick first digit
 			ans+=zero_to_99[int(a[x])] + " " + multiples_of_ten[l-x-1] + " "
 			x+=1
-		else:
+		else:                    # pick in pairs
 			tp = a[x] + a[x+1]
 			if int(tp)!=0:
 				ans+=zero_to_99[int(tp)] + " " + multiples_of_ten[l-x-1] + " "
 			x+=2
-
+                                 # Process last three digits
 	if int(a[x])!=0:
 		ans+=zero_to_99[int(a[x])] + " " + multiples_of_ten[l-x-1] + " "
 
@@ -52,8 +54,17 @@ else:
 
 	tp = a[x] + a[x+1]
 	if int(tp)!=0:
-		ans+=zero_to_99[int(tp)]
+		ans+=zero_to_99[int(tp)] + " "
 
-	print(ans)
+                                 # Process after decimal
+lb = len(b)
+
+if lb != 0:
+	ans+="दशमलव" + " "
+
+	for i in range(lb):
+		ans+=zero_to_99[int(b[i])] + " "
+
+print(ans)
 
 
