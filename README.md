@@ -50,4 +50,6 @@ get information about the currency exchange rates using data from <a href="https
 py script to convert time to words
 <li>Number in Hindi Words</li>
 py script to convert number to hindi words
+<li>ConfigParser</li>
+read-write from-to configuration files the py way
 </ul>
