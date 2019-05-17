@@ -52,4 +52,6 @@ py script to convert time to words
 py script to convert number to hindi words
 <li>ConfigParser</li>
 read-write from-to configuration files the py way
+<li>ET XML API</li>
+read-write from-to XML files the py way
 </ul>
