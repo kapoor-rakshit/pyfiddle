@@ -54,4 +54,6 @@ py script to convert number to hindi words
 read-write from-to configuration files the py way
 <li>ET XML API</li>
 read-write from-to XML files the py way
+<li>HTML parser</li>
+parsing text files formatted in HTML
 </ul>
