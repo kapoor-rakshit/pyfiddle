@@ -56,4 +56,6 @@ read-write from-to configuration files the py way
 read-write from-to XML files the py way
 <li>HTML parser</li>
 parsing text files formatted in HTML
+<li>openpyxl</li>
+excel in EXCEL (xlsx) with openpyxl
 </ul>
